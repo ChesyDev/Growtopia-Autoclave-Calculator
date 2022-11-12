@@ -1,0 +1,10 @@
+D:\Visual Studio Projects\GrowtopiaAutoclaveCalculator\bin\Debug\GrowtopiaAutoclaveCalculator.exe.config
+D:\Visual Studio Projects\GrowtopiaAutoclaveCalculator\bin\Debug\GrowtopiaAutoclaveCalculator.exe
+D:\Visual Studio Projects\GrowtopiaAutoclaveCalculator\bin\Debug\GrowtopiaAutoclaveCalculator.pdb
+D:\Visual Studio Projects\GrowtopiaAutoclaveCalculator\obj\Debug\GrowtopiaAutoclaveCalculator.csproj.AssemblyReference.cache
+D:\Visual Studio Projects\GrowtopiaAutoclaveCalculator\obj\Debug\GrowtopiaAutoclaveCalculator.Form1.resources
+D:\Visual Studio Projects\GrowtopiaAutoclaveCalculator\obj\Debug\GrowtopiaAutoclaveCalculator.Properties.Resources.resources
+D:\Visual Studio Projects\GrowtopiaAutoclaveCalculator\obj\Debug\GrowtopiaAutoclaveCalculator.csproj.GenerateResource.cache
+D:\Visual Studio Projects\GrowtopiaAutoclaveCalculator\obj\Debug\GrowtopiaAutoclaveCalculator.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\GrowtopiaAutoclaveCalculator\obj\Debug\GrowtopiaAutoclaveCalculator.exe
+D:\Visual Studio Projects\GrowtopiaAutoclaveCalculator\obj\Debug\GrowtopiaAutoclaveCalculator.pdb
