@@ -89,6 +89,11 @@ namespace GrowtopiaAutoclaveCalculator
             this.WLEarned = new System.Windows.Forms.Label();
             this.Calculate = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.SetAmount = new System.Windows.Forms.Button();
+            this.UseOff = new System.Windows.Forms.Button();
+            this.UseOn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // SpongeBox
@@ -636,7 +641,7 @@ namespace GrowtopiaAutoclaveCalculator
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(45, 21);
             this.textBox10.TabIndex = 44;
-            this.textBox10.Text = "14";
+            this.textBox10.Text = "13";
             this.textBox10.TextChanged += new System.EventHandler(this.textBox10_TextChanged);
             // 
             // textBox11
@@ -647,7 +652,7 @@ namespace GrowtopiaAutoclaveCalculator
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(45, 21);
             this.textBox11.TabIndex = 43;
-            this.textBox11.Text = "1.538461538461538";
+            this.textBox11.Text = "1.6";
             this.textBox11.TextChanged += new System.EventHandler(this.textBox11_TextChanged);
             // 
             // textBox12
@@ -658,7 +663,7 @@ namespace GrowtopiaAutoclaveCalculator
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(45, 21);
             this.textBox12.TabIndex = 42;
-            this.textBox12.Text = "14";
+            this.textBox12.Text = "13";
             this.textBox12.TextChanged += new System.EventHandler(this.textBox12_TextChanged);
             // 
             // textBox13
@@ -669,14 +674,14 @@ namespace GrowtopiaAutoclaveCalculator
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(45, 21);
             this.textBox13.TabIndex = 41;
-            this.textBox13.Text = "14";
+            this.textBox13.Text = "13";
             this.textBox13.TextChanged += new System.EventHandler(this.textBox13_TextChanged);
             // 
             // label17
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Leelawadee UI Semilight", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(12, 412);
+            this.label17.Location = new System.Drawing.Point(245, 343);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(84, 19);
             this.label17.TabIndex = 55;
@@ -686,7 +691,7 @@ namespace GrowtopiaAutoclaveCalculator
             // 
             this.WLEarned.AutoSize = true;
             this.WLEarned.Font = new System.Drawing.Font("Leelawadee UI Semilight", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WLEarned.Location = new System.Drawing.Point(89, 412);
+            this.WLEarned.Location = new System.Drawing.Point(323, 343);
             this.WLEarned.Name = "WLEarned";
             this.WLEarned.Size = new System.Drawing.Size(16, 19);
             this.WLEarned.TabIndex = 56;
@@ -694,7 +699,7 @@ namespace GrowtopiaAutoclaveCalculator
             // 
             // Calculate
             // 
-            this.Calculate.Location = new System.Drawing.Point(166, 380);
+            this.Calculate.Location = new System.Drawing.Point(280, 285);
             this.Calculate.Name = "Calculate";
             this.Calculate.Size = new System.Drawing.Size(75, 23);
             this.Calculate.TabIndex = 57;
@@ -704,19 +709,74 @@ namespace GrowtopiaAutoclaveCalculator
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(81, 380);
+            this.button1.Location = new System.Drawing.Point(280, 242);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(75, 25);
             this.button1.TabIndex = 58;
             this.button1.Text = "Reset";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // textBox14
+            // 
+            this.textBox14.Font = new System.Drawing.Font("Lato Black", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox14.Location = new System.Drawing.Point(278, 60);
+            this.textBox14.MaxLength = 10;
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(75, 21);
+            this.textBox14.TabIndex = 59;
+            this.textBox14.Text = "0";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Leelawadee UI Semilight", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(276, 38);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(77, 19);
+            this.label18.TabIndex = 60;
+            this.label18.Text = "All Amount";
+            // 
+            // SetAmount
+            // 
+            this.SetAmount.Location = new System.Drawing.Point(278, 87);
+            this.SetAmount.Name = "SetAmount";
+            this.SetAmount.Size = new System.Drawing.Size(75, 25);
+            this.SetAmount.TabIndex = 61;
+            this.SetAmount.Text = "Set";
+            this.SetAmount.UseVisualStyleBackColor = true;
+            this.SetAmount.Click += new System.EventHandler(this.SetAmount_Click);
+            // 
+            // UseOff
+            // 
+            this.UseOff.Location = new System.Drawing.Point(278, 153);
+            this.UseOff.Name = "UseOff";
+            this.UseOff.Size = new System.Drawing.Size(75, 25);
+            this.UseOff.TabIndex = 62;
+            this.UseOff.Text = "All Use Off";
+            this.UseOff.UseVisualStyleBackColor = true;
+            this.UseOff.Click += new System.EventHandler(this.UseOff_Click);
+            // 
+            // UseOn
+            // 
+            this.UseOn.Location = new System.Drawing.Point(278, 180);
+            this.UseOn.Name = "UseOn";
+            this.UseOn.Size = new System.Drawing.Size(75, 25);
+            this.UseOn.TabIndex = 63;
+            this.UseOn.Text = "All Use On";
+            this.UseOn.UseVisualStyleBackColor = true;
+            this.UseOn.Click += new System.EventHandler(this.UseOn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(259, 450);
+            this.ClientSize = new System.Drawing.Size(388, 387);
+            this.Controls.Add(this.UseOn);
+            this.Controls.Add(this.UseOff);
+            this.Controls.Add(this.SetAmount);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.textBox14);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.Calculate);
             this.Controls.Add(this.WLEarned);
@@ -847,6 +907,11 @@ namespace GrowtopiaAutoclaveCalculator
         private System.Windows.Forms.Label WLEarned;
         private System.Windows.Forms.Button Calculate;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Button SetAmount;
+        private System.Windows.Forms.Button UseOff;
+        private System.Windows.Forms.Button UseOn;
     }
 }
 
