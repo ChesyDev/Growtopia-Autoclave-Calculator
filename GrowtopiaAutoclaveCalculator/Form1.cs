@@ -91,7 +91,7 @@ namespace GrowtopiaAutoclaveCalculator
                 {
                     if (sponge >= 20)
                     {
-                        sponge -= 20;
+                        sponge -= 21;
                         autoclaved();
                     }
                     else
@@ -107,7 +107,7 @@ namespace GrowtopiaAutoclaveCalculator
                 {
                     if (scalpel >= 20)
                     {
-                        scalpel -= 20;
+                        scalpel -= 21;
                         autoclaved();
                     }
                     else
@@ -123,7 +123,7 @@ namespace GrowtopiaAutoclaveCalculator
                 {
                     if (stitches >= 20)
                     {
-                        stitches -= 20;
+                        stitches -= 21;
                         autoclaved();
                     }
                     else
@@ -139,7 +139,7 @@ namespace GrowtopiaAutoclaveCalculator
                 {
                     if (antibiotics >= 20)
                     {
-                        antibiotics -= 20;
+                        antibiotics -= 21;
                         autoclaved();
                     }
                     else
@@ -155,7 +155,7 @@ namespace GrowtopiaAutoclaveCalculator
                 {
                     if (splint >= 20)
                     {
-                        splint -= 20;
+                        splint -= 21;
                         autoclaved();
                     }
                     else
@@ -171,7 +171,7 @@ namespace GrowtopiaAutoclaveCalculator
                 {
                     if (antiseptic >= 20)
                     {
-                        antiseptic -= 20;
+                        antiseptic -= 21;
                         autoclaved();
                     }
                     else
@@ -184,7 +184,7 @@ namespace GrowtopiaAutoclaveCalculator
                 {
                     if (anesthetic >= 20)
                     {
-                        anesthetic -= 20;
+                        anesthetic -= 21;
                         autoclaved();
                     }
                     else
@@ -200,7 +200,7 @@ namespace GrowtopiaAutoclaveCalculator
                 {
                     if (labkit >= 20)
                     {
-                        labkit -= 20;
+                        labkit -= 21;
                         autoclaved();
                     }
                     else
@@ -216,7 +216,7 @@ namespace GrowtopiaAutoclaveCalculator
                 {
                     if (clamp >= 20)
                     {
-                        clamp -= 20;
+                        clamp -= 21;
                         autoclaved();
                     }
                     else
@@ -232,7 +232,7 @@ namespace GrowtopiaAutoclaveCalculator
                 {
                     if (pins >= 20)
                     {
-                        pins -= 20;
+                        pins -= 21;
                         autoclaved();
                     }
                     else
@@ -248,7 +248,7 @@ namespace GrowtopiaAutoclaveCalculator
                 {
                     if (transfusion >= 20)
                     {
-                        transfusion -= 20;
+                        transfusion -= 21;
                         autoclaved();
                     }
                     else
@@ -264,7 +264,7 @@ namespace GrowtopiaAutoclaveCalculator
                 {
                     if (ultrasound >= 20)
                     {
-                        ultrasound -= 20;
+                        ultrasound -= 21;
                         autoclaved();
                     }
                     else
@@ -280,7 +280,7 @@ namespace GrowtopiaAutoclaveCalculator
                 {
                     if (defib >= 20)
                     {
-                        defib -= 20;
+                        defib -= 21;
                         autoclaved();
                     }
                     else
