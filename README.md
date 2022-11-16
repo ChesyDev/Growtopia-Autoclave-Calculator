@@ -1,5 +1,5 @@
-# Growtopia Autoclave Calculator v1.1
-Growtopia Autoclave Calculator v1.1 - 15th November 2022 last updated
+# Growtopia Autoclave Calculator v1.11
+Growtopia Autoclave Calculator v1.11 - 16th November 2022 last updated
 
 Amount - The amount of tools
 
